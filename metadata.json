@@ -1,0 +1,107 @@
+{
+	"name":"BaseKit Developer Template",
+	"thumbnail":"basekit-dev-template.png",
+	"screenshot":"basekit-dev-template.png",
+    "tags": { "en": ["minimal", "clean"] },
+    "pageTypes":["home"],
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#63c6ae",
+            "color3":"#ff964a",
+            "color4":"#5d5d5d",
+            "color5":"#8f8f8f",
+            "color6":"#5d5d5d",
+            "color7":"#f87b17"
+        }
+    },
+    "fontSwatch": {
+       "title": "DIN / Proxima",
+        "font1": {
+            "font-family": "din",
+            "font-size": "36px",
+            "font-weight": "inherit",
+            "line-height": "52px",
+            "color": "@color-swatch1",
+            "letter-spacing": "-2px"
+        },
+        "font2": {
+            "font-family": "din",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch4",
+            "letter-spacing": "-1px"
+        },
+        "font3": {
+            "font-family": "proxima-nova",
+            "font-size": "20px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "proxima-nova-semibold",
+            "font-size": "14px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch4",
+            "letter-spacing": "2px"
+        },
+        "font5": {
+            "font-family": "proxima-nova",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "28px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Vollkorn\", georgia, sans-serif",
+            "font-size": "16px",
+            "font-weight": "inherit",
+            "line-height": "30px",
+            "color": "@color-swatch6",
+            "letter-spacing": "inherit",
+            "color-hover": "darken(@color-swatch6,20%)",
+            "background-color": "@color-swatch1",
+            "background-color-hover": "@color-swatch1"
+         },
+        "font7": {
+            "font-family": "\"Vollkorn\", georgia, sans-serif",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "40px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch2",
+            "background-color-hover": "darken(@color-swatch2,10%)"
+        },
+        "font8": {
+            "font-family": "\"Montserrat\", Arial, sans-serif",
+            "font-size": "42px",
+            "font-weight": "inherit",
+            "line-height": "52px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "\"Montserrat\", Arial, sans-serif",
+            "font-size": "22px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "\"Montserrat\", Arial, sans-serif",
+            "font-size": "28px",
+            "font-weight": "300",
+            "line-height": "52px",
+            "color": "darken(@color-swatch4,10%)",
+            "letter-spacing": "3px"
+        }
+    }
+}
