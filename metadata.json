@@ -3,7 +3,6 @@
 	"thumbnail":"basekit-dev-template.png",
 	"screenshot":"basekit-dev-template.png",
     "tags": { "en": ["minimal", "clean"] },
-    "pageTypes":["home"],
     "colorSwatches":
     {
         "Swatch 1": {
