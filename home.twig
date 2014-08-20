@@ -2,88 +2,31 @@
 
 {% block content %}
 
-<section class="page home">
-	<div class="page-content">
+<div class="page home">
+	<div class="wrapper">
+
 		<!-- Header !-->
-		<header class="template-header clearfix">
-			<div class="wrapper">
-				<div class="fl-left">
-					<h1>Welcome fellow developer</h1>
-					<h3>Follow the steps below to start building a BaseKit template</h3>
-				</div>
-				<div class="fl-right">
-					<a href="http://developers.basekit.com" class="main-cta" target="_blank">Visit Documentation</a>
-				</div>
-			</div>
+		<header class="page-header">
+			<h1><span>Upload your custom template</span></h1>
 		</header>
-		<section class="blocks">
-			<div class="wrapper">
-				<div class="title">
-					<h4>Installation</h4>
-				</div>
-				<div class="row blue">
-					<!-- Installation !-->
-					<article>
-						<h2 class="step one">Set Up Git</h2>
-						<p>If you need help installing Git, visit our <a href="http://developers.basekit.com/setting-up-git" target="_blank">Setting Up Git</a> page for a quick walkthrough.</p>
-						<a href="http://developers.basekit.com/setting-up-git" class="btn blue" target="_blank">Git Setup Help</a>
-					</article>
-					<article>
-						<h2 class="step two">Install the TDK</h2>
-						<p>Our Template Development Kit provides you with an easy-to-use emulator for building your site locally. </p>
-						<a href="http://developers.basekit.com/getting-started" class="btn blue" target="_blank">Install the TDK</a>
-					</article>
-					<article>
-						<h2 class="step three">Clone Baseplate</h2>
-						<p>Clone the Baseplate template - this will provide you with a blank canvas for development.</p>
-						<a href="https://github.com/basekit-templates/basekit-baseplate/tree/develop" class="btn blue" target="_blank">Clone Baseplate</a>
-					</article>
-				</div>
-				<!-- Development !-->
-				<div class="title">
-					<h4>Development</h4>
-				</div>
-				<div class="row orange">
-					<article>
-						<h2 class="step one">Build Template</h2>
-						<p>Grab your caffeinated beverage of choice, make yourself comfortable, and start building your template.</p>
-						<a href="" class="btn orange" target="_blank">Build Template</a>
-					</article>
-					<article>
-						<h2 class="step two">Upload to BaseKit</h2>
-						<p>It is time to upload your template to BaseKit. Find out how to do this by visiting the <a href="http://developers.basekit.com/upload-template" target="_blank">Upload Template</a> page.</p>
-						<a href="http://developers.basekit.com/upload-template" class="btn orange" target="_blank">Upload Guide</a>
-					</article>
-					<article>
-						<h2 class="step three">Publish Website</h2>
-						<p>Once you are happy with your website, publish with 2-clicks - no FTP access requred.</p>
-						<a href="http://basekit.com/tour" class="btn orange" target="_blank">Editor Tour</a>
-					</article>
-				</div>
-				<!-- Resources !-->
-				<div class="title">
-					<h4>Resources</h4>
-				</div>
-				<div class="row green">
-					<article>
-						<h2>Documentation</h2>
-						<p>Stuck at step one? Read our growing collection of guides and problem solvers here.</p>
-						<a href="http://developers.basekit.com/" class="btn green" target="_blank">View the Docs</a>
-					</article>
-					<article>
-						<h2>Knowledge</h2>
-						<p>Need a specific question answered? Head on over to our Knowledge Forum and ask away.</p>
-						<a href="http://knowledge.basekit.com/" class="btn green" target="_blank">Visit the Forum</a>
-					</article>
-					<article class="trans">
-						<h2>Workshops</h2>
-						<p>Watch bite-size online classes at your leisure, walking you through all elements of building for the web.</p>
-						<a class="btn grey" target="_blank">View Workshops</a>
-					</article>
-				</div>
+
+		<!-- Main Content !-->
+		<section class="page-content">
+
+			<img src="{{asset('/images/template-layers.png')}}">
+
+			<!-- Steps !-->
+			<div class="steps-wrap">
+				<ol class="steps">
+					<li>Download the <a href="https://github.com/richardhealy/simple" target-="_blank">Baseplate Template</a></li>
+					<li>Edit the template files and add to ZIP</li>
+					<li><a href="#">Upload the template</a> ZIP to BaseKit </li> 
+				</ol>
 			</div>
+
 		</section>
+
 	</div>
-</section>
+</div>
 
 {% endblock %}
