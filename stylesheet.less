@@ -1,106 +1,24 @@
-// Imports
-@import "@{templateLocal}/fonts/fonts.less";
+// ------------------------------------------
+// BaseKit Developer Portal Theme: Stylesheet
+// ------------------------------------------
 
-// Media Queries
-@mobile: ~"only screen and (max-width: 420px)";
+// #tdk-toolbar {
+// 	display: none!important;
+// }
 
-// Colours
-@lightGrey: #f8f8f8;
-@white: #ffffff;
-@blue: #359ddd;
-@text: #5d5d5d;
+// -----------------------------
+// #LESS Includes
+// -----------------------------
 
-// Wrapper 
-.wrapper {
-    width: 90%;
-    margin: 0 5%;
-    @media only screen and (min-width: 1140px) {
-    	width: 1024px;
-		margin: 0 auto;
-	}
-}
+@import "@{templateLocal}/less/reset/reset.less";     // Reset
 
-img {
-	max-width: 100%;
-}
+@import "@{templateLocal}/less/mixins.less";          // Mixins
+@import "@{templateLocal}/less/colors.less";          // Colors
+@import "@{templateLocal}/fonts/fonts.less";          // Fonts
+@import "@{templateLocal}/fonts/icons.less";          // Icons
+@import "@{templateLocal}/less/typography.less";      // Typography
 
-// Body
-body {
-	background-color: @lightGrey;
-	margin: 0;
-	padding: 0;
-}
+@import "@{templateLocal}/less/theme.less";           // Theme
+@import "@{templateLocal}/less/buttons.less";         // Buttons
+@import "@{templateLocal}/less/sidebar-pullout.less"; // Sidebar Pullout
 
-a {
-	color: @blue;
-	text-decoration: none;
-	&:hover {
-		padding-bottom: 3px;
-		border-bottom: 1px solid lighten(@blue,15%);
-	}
-}
-
-// Resets
-h1, h2, h3, h4, p, li {
-	padding: 0;
-	margin: 0;
-	font-family: 'din';
-	font-weight: 400;
-	color: @text;
-	-webkit-font-smoothing:antialiased;
-}
-
-h1 {
-	background: image('/images/line-bg.png') repeat-x center;
-	font-size: 25px;
-	letter-spacing: -1px;
-	@media @mobile {
-		font-size: 22px;
-	}
-	span {
-		padding: 0 30px;
-		background-color: @lightGrey;
-		@media @mobile {
-			padding: 0 10px;
-		}
-	}
-}
-
-// Header 
-header.page-header {
-	padding: 3em 0;
-	text-align: center;
-	@media @mobile {
-		padding: 2em 0;
-	}
-}
-
-// Steps
-.steps-wrap {
-	display: block;
-	margin: 3em auto 0;
-	max-width: 400px;
-	@media @mobile {
-		margin-top: 2em;
-	}
-}
-
-.steps {
-	padding: 0 0 0 25px;
-	li {
-		padding-left: 10px;
-		margin-bottom: 30px;
-		font-size: 22px;
-		line-height: 28px;
-		@media @mobile {
-			margin-bottom: 14px;
-			font-size: 18px;
-		}
-		&:last-child {
-			margin-bottom: 0;
-		}
-		span {
-			margin-right: 30px;
-		}
-	}
-}

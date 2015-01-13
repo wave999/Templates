@@ -1,4 +1,4 @@
-bk-dev-template
-===============
+basekit-dev-portal
+==================
 
-BaseKit Developer Template for use within the Editor
+BaseKit Developer Portal
